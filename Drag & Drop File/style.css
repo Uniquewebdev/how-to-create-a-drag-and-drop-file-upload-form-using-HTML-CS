@@ -1,0 +1,61 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: fantasy;
+ }
+ body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(#81ecec, #74b9ff );
+ }
+ .input-area {
+    border: 3px dotted red;
+    height: 500px;
+    width: 750px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+ }
+ .input-area.active{
+    border: 2px solid #fff;
+ }
+
+.input-area .icon {
+    font-size: 100px;
+    color: aliceblue;
+}.input-area header{
+    font-size: 30px;
+    font-weight: 500;
+    color: #fff;
+
+}.input-area span{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0  15px 0;
+    color: #fff;
+}.input-area  button {
+    padding: 10px 25px;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    background: #fff;
+    color: red;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+}.input-area  button:hover {
+    transform: scale(1.03);
+}
+.input-area  img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5px ;
+    border: 1px solid white;
+}
